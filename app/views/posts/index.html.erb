@@ -1,0 +1,33 @@
+<p style="color: green"><%= notice %></p>
+<h1>Hello There!</h1>
+<h4>I am Rails 7 using importmaps</h4>
+<br>
+<div id="boxes">
+  <h4>I am gsap</h4>
+  <div class="box fadeSlideTo">to</div>
+  <div class="box fadeSlideFrom">from</div>
+  <div class="box fadeSlideFromTo">fromTo</div>
+</div>
+<br>
+<div id="react"></div>
+<div id="posts">
+  <% @posts.each do |post| %>
+    <%= render post %>
+    <p>
+      <%= link_to "Show this post", post %>
+    </p>
+  <% end %>
+</div>
+<%= link_to "New post", new_post_path %>
+<br>
+<div id="aos">
+  <h4>I am AOS</h4>
+  <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+    There is no strife, no prejudice, no national conflict in outer space as yet. Its hazards are hostile to us all. Its conquest deserves the best of all mankind, and its opportunity for peaceful cooperation many never come again. But why, some say, the moon? Why choose this as our goal? And they may well ask why climb the highest mountain? Why, 35 years ago, fly the Atlantic? Why does Rice play Texas?
+  </div>
+  <div data-aos="flip-up">
+    We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard, because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we are willing to accept, one we are unwilling to postpone, and one which we intend to win, and the others, too.
+  </div>
+  <br>
+  <h3 class="animate__animated animate__tada animate__infinite">I am animate CSS</h3>
+</div>
