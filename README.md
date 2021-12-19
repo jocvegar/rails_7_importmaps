@@ -1,24 +1,14 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Heroku](http://heroku-badge.herokuapp.com/?app=rails-7-importmaps)
 
-Things you may want to cover:
+# Rails 7
 
-* Ruby version
+A sandbox for Rails 7 with importmaps
 
-* System dependencies
+## Demo
 
-* Configuration
+[Check it out!](https://rails-7-importmaps.herokuapp.com/)
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p align="center">
+  <img src="https://media.giphy.com/media/5h0piMX8ku0xj97W0t/giphy.gif" alt="Me"/>
+</p>
