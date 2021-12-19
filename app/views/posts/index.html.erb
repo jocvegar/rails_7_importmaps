@@ -10,6 +10,7 @@
 </div>
 <br>
 <div id="react"></div>
+<div id="vue"></div>
 <div id="posts">
   <% @posts.each do |post| %>
     <%= render post %>
@@ -30,4 +31,16 @@
   </div>
   <br>
   <h3 class="animate__animated animate__tada animate__infinite">I am animate CSS</h3>
+  <br>
+  <div id="stimulus">
+    <h4>I am stimulus</h4>
+    <div data-controller="hello">
+      <input data-hello-target="name" type="text">
+      <button data-action="click->hello#greet">
+        Greet
+      </button>
+      <span data-hello-target="output" style="margin-left: 1rem">
+      </span>
+    </div>
+  </div>
 </div>

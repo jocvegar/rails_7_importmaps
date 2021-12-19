@@ -2,6 +2,7 @@
 import "@hotwired/turbo-rails";
 import "controllers";
 import "components/react";
+import "components/vue";
 import "custom/gsap";
 import AOS from "aos";
 AOS.init();

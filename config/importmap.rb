@@ -14,3 +14,4 @@ pin "object-assign", to: "https://ga.jspm.io/npm:object-assign@4.1.1/index.js"
 pin "scheduler", to: "https://ga.jspm.io/npm:scheduler@0.20.2/index.js"
 pin "gsap", to: "https://ga.jspm.io/npm:gsap@3.9.0/index.js"
 pin "local-time" # @2.1.0
+pin "vue", to: "https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js"
