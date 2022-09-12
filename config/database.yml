@@ -82,6 +82,3 @@ test:
 production:
   <<: *default
   url: <%= ENV["DATABASE_URL"] %>
-  database: rails_7_production
-  username: rails_7
-  password: <%= ENV["RAILS_7_DATABASE_PASSWORD"] %>
